@@ -2,13 +2,14 @@
 #z::
 #IfWinActive ahk_exe msedge.exe
 #z::
-Send ^t
-Send ^l
-Send https://myanimelist.net/animelist/kkard2
+SendInput ^t
+SendInput ^l
+SendInput https://myanimelist.net/animelist/kkard2
+Sleep 250
 Send {Enter}
-Send ^t
-Send ^l
-Send https://anilist.co/user/kkard2/animelist
-Send {Enter}
+SendInput ^t
+SendInput ^l
+SendInput https://anilist.co/user/kkard2/animelist
+SendInput {Enter}
 return
 
