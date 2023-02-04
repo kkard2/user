@@ -1,3 +1,5 @@
+#SingleInstance Force
+
 #z::{
     if WinActive("ahk_exe firefox.exe") or WinActive("ahk_exe msedge.exe") {
         SendInput "^t"
