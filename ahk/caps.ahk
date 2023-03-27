@@ -1,4 +1,9 @@
 #SingleInstance Force
 
 +CapsLock::CapsLock
-CapsLock::Esc
+CapsLock Up::{
+    KeyWait "CapsLock"
+
+    if (A_PriorKey = "CapsLock")
+        Send "{Esc}"
+}
