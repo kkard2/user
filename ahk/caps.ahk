@@ -1,9 +1,19 @@
 #SingleInstance Force
 
-+CapsLock::CapsLock
-CapsLock Up::{
-    KeyWait "CapsLock"
+CapsLockState := false
 
-    if (A_PriorKey = "CapsLock")
-        Send "{Esc}"
+#HotIf GetKeyState("CapsLock", "P")
+q::Esc
+#HotIf
+
+*CapsLock::{
+    KeyWait "CapsLock"
+    if A_ThisHotkey = "*CapsLock" {
+        if GetKeyState("Shift") {
+            global CapsLockState := not CapsLockState
+            SetCapsLockState CapsLockState
+        } else {
+            Send "{Escape}"
+        }
+    }
 }
