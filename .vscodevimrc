@@ -1,19 +1,17 @@
-mapleader " "
-
 nnoremap J mzJ`z
 nnoremap <C-d> <C-d>zz
 nnoremap <C-u> <C-u>zz
 nnoremap n nzzzv
 nnoremap N Nzzzv
 
-nnoremap <leader>y "+y
-vnoremap <leader>y "+y
-nnoremap <leader>Y "+Y
+nnoremap <space>y "+y<cr>
+vnoremap <space>y "+y<cr>
+nnoremap <space>Y "+Y<cr>
 
-nnoremap <leader>p "+p
-vnoremap <leader>p "+p
-nnoremap <leader>P "+P
+nnoremap <space>p "+p<cr>
+vnoremap <space>p "+p<cr>
+nnoremap <space>P "+P<cr>
 
-nnoremap <leader>d "+d
-vnoremap <leader>d "+d
-nnoremap <leader>D "+D
+nnoremap <space>d "+d<cr>
+vnoremap <space>d "+d<cr>
+nnoremap <space>D "+D<cr>
