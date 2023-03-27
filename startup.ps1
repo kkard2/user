@@ -1,5 +1,5 @@
 $CurrentPath = Split-Path $MyInvocation.MyCommand.Path -Parent
-cd $CurrentPath
+Set-Location $CurrentPath
 git pull
 
 # ahk
