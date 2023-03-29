@@ -22,11 +22,13 @@ HarpoonRun(winTitle) {
 }
 
 #HotIf GetKeyState(SystemLeader, "P")
+; vim motion
 h::Left
 j::Down
 k::Up
 l::Right
 
+; less vim motion
 w::^Right
 b::^Left
 i::Home
@@ -35,13 +37,12 @@ a::End
 o::{
     Send "{End}{Enter}"
 }
-+o::{
-    Send "{Home}{Enter}{Up}"
-}
 
 ; harpoon
 `::HarpoonRun("ahk_exe WindowsTerminal.exe")
 1::HarpoonRun("ahk_exe Discord.exe")
 2::HarpoonRun("ahk_exe rider64.exe")
-3::HarpoonRun("ahk_exe code.exe")
+3::HarpoonRun("ahk_exe msedge.exe")
+4::HarpoonRun("ahk_exe code.exe")
+e::HarpoonRun("ahk_class CabinetWClass")
 #HotIf
