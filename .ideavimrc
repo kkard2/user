@@ -1,0 +1,33 @@
+let mapleader = ' '
+
+set number
+set relativenumber
+
+set tabstop = 4
+set softtabstop = 4
+set shiftwidth = 4
+set expandtab
+
+set smartindent
+
+set wrap=false
+
+set hlsearch = false
+set incsearch = true
+
+set NERDTree
+
+nnoremap <leader>p "+p
+nnoremap <leader>y "+y
+nnoremap <leader>d "+d
+
+vnoremap <leader>p "+p
+vnoremap <leader>y "+y
+vnoremap <leader>d "+d
+
+nnoremap <C-d> <C-d>zz
+nnoremap <C-u> <C-u>zz
+nnoremap n nzz
+nnoremap N Nzz
+
+nnoremap <leader>gp :!git pull<CR>
