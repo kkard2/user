@@ -55,4 +55,6 @@ e::HarpoonRun("ahk_class CabinetWClass")
         MsgBox FileRead(A_LoopFileFullPath), A_LoopFileName
     }
 }
+
+Esc::Run "taskmgr"
 #HotIf
