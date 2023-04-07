@@ -7,5 +7,5 @@ matches:
     image_path: "..\\assets\\kot_w_misce.png"
   - trigger: ;;ikot
     image_path: "..\\assets\\kot.png"
-  - trigger: ;;wifereaction
+  - trigger: ;;iwifereaction
     image_path: "..\\assets\\my_wife_reaction_to_that_information.png"
