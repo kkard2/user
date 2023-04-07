@@ -45,4 +45,14 @@ o::{
 3::HarpoonRun("ahk_exe msedge.exe")
 4::HarpoonRun("ahk_exe code.exe")
 e::HarpoonRun("ahk_class CabinetWClass")
+
+; list espanso files
+`;::{
+    SetWorkingDir A_ScriptDir
+    FileEncoding "UTF-8"
+
+    loop files "../espanso/match/*.yml" {
+        MsgBox FileRead(A_LoopFileFullPath), A_LoopFileName
+    }
+}
 #HotIf
