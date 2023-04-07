@@ -1,0 +1,9 @@
+matches:
+  - trigger: ;;ipipe
+    image_path: "..\\assets\\pipe.png"
+  - trigger: ;;ialert
+    image_path: "..\\assets\\alert.png"
+  - trigger: ;;imiska
+    image_path: "..\\assets\\kot_w_misce.png"
+  - trigger: ;;ikot
+    image_path: "..\\assets\\kot.png"
