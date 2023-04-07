@@ -45,7 +45,4 @@ o::{
 3::HarpoonRun("ahk_exe msedge.exe")
 4::HarpoonRun("ahk_exe code.exe")
 e::HarpoonRun("ahk_class CabinetWClass")
-
-; espanso leader
-`;::■
 #HotIf

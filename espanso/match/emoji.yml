@@ -1,0 +1,11 @@
+matches:
+  - trigger: ;;slightsm
+    replace: 🙂
+  - trigger: ;;moyai
+    replace: 🗿
+  - trigger: ;;thup
+    replace: 👍
+  - trigger: ;;thdown
+    replace: 👎
+  - trigger: ;;skull
+    replace: 💀

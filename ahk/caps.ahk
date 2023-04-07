@@ -20,3 +20,5 @@ CapsLock::{
         }
     }
 }
+
+Esc::F13
