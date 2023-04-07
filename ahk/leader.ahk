@@ -43,7 +43,8 @@ o::{
 1::HarpoonRun("ahk_exe Discord.exe")
 2::HarpoonRun("ahk_exe rider64.exe")
 3::HarpoonRun("ahk_exe msedge.exe")
-4::HarpoonRun("ahk_exe code.exe")
+4::HarpoonRun("ahk_exe Element.exe")
+5::HarpoonRun("ahk_exe code.exe")
 e::HarpoonRun("ahk_class CabinetWClass")
 
 ; list espanso files
