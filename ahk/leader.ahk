@@ -4,7 +4,7 @@ HarpoonLastWindowIndex := 0
 
 HarpoonRun(winTitle) {
     SetTitleMatchMode 2
-    DetectHiddenWindows true
+    DetectHiddenWindows false
 
     windows := WinGetList(winTitle)
 
