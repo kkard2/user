@@ -58,4 +58,20 @@ e::HarpoonRun("ahk_class CabinetWClass")
 }
 
 Esc::Run "taskmgr"
+
+; window manipulation
+!h::#+Left
+!j::#+Down
+!k::#+Up
+!l::#+Right
+
+^!h::#Left
+^!j::#Down
+^!k::#Up
+^!l::#Right
+
+; desktop switching
+^h::^#Left
+^l::^#Right
 #HotIf
+
