@@ -1,11 +1,21 @@
+global_vars:
+  - name: assets
+    type: shell
+    params:
+      cmd: echo $($env:USER_CFG_PATH + "\espanso\assets")
+
 matches:
   - trigger: ;;ipipe
-    image_path: "..\\assets\\pipe.png"
+    image_path: "{{assets}}\\pipe.png"
   - trigger: ;;ialert
-    image_path: "..\\assets\\alert.png"
+    image_path: "{{assets}}\\alert.png"
   - trigger: ;;imiska
-    image_path: "..\\assets\\kot_w_misce.png"
+    image_path: "{{assets}}\\kot_w_misce.png"
   - trigger: ;;ikot
-    image_path: "..\\assets\\kot.png"
+    image_path: "{{assets}}\\kot.png"
   - trigger: ;;iwifereaction
-    image_path: "..\\assets\\my_wife_reaction_to_that_information.png"
+    image_path: "{{assets}}\\my_wife_reaction_to_that_information.png"
+  - trigger: ;;iahh
+    image_path: "{{assets}}\\ahh.png"
+  - trigger: ;;ihuh
+    image_path: "{{assets}}\\huh.png"
