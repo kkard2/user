@@ -21,4 +21,11 @@ CapsLock::{
     }
 }
 
+!CapsLock::{
+    return
+}
+^CapsLock::{
+    return
+}
+
 Esc::F13
