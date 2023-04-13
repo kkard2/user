@@ -13,3 +13,5 @@ matches:
     image_path: "$CONFIG\\assets\\ahh.png"
   - trigger: ;;ihuh
     image_path: "$CONFIG\\assets\\huh.png"
+  - trigger: ;;irozpacz
+    image_path: "$CONFIG\\assets\\rozpacz.png"
