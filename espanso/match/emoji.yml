@@ -11,3 +11,5 @@ matches:
     replace: 💀
   - trigger: ;;weary
     replace: 😩
+  - trigger: ;;nerd
+    replace: 🤓
