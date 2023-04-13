@@ -9,3 +9,5 @@ matches:
     replace: 👎
   - trigger: ;;skull
     replace: 💀
+  - trigger: ;;weary
+    replace: 😩
