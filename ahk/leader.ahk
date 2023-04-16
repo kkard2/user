@@ -61,13 +61,13 @@ Esc::Run "taskmgr"
 
 ; window manipulation
 !h::#+Left
-!j::#+Down
-!k::#+Up
+!j::#Down
+!k::#Up
 !l::#+Right
 
 ^!h::#Left
-^!j::#Down
-^!k::#Up
+^!j::#+Down
+^!k::#+Up
 ^!l::#Right
 
 ; desktop switching
