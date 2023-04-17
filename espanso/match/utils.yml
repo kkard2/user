@@ -8,6 +8,8 @@ matches:
           format: "%Y-%m-%d %H:%M:%S"
   - trigger: ;;shrug
     replace: ¯\_(ツ)_/¯
+  - trigger: ;;bshrug
+    replace: ¯\\\_(ツ)_/¯
   - trigger: ;;lenny
     replace: ( ͡° ͜ʖ ͡°)
   - trigger: ;;flip
