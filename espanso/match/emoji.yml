@@ -13,3 +13,5 @@ matches:
     replace: 😩
   - trigger: ;;nerd
     replace: 🤓
+  - trigger: ;;sunglasses
+    replace: 😎
