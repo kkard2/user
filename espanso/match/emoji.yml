@@ -1,6 +1,8 @@
 matches:
   - trigger: ;;slightsm
     replace: 🙂
+  - trigger: ;;slightfr
+    replace: 🙁
   - trigger: ;;moyai
     replace: 🗿
   - trigger: ;;thup
@@ -15,3 +17,21 @@ matches:
     replace: 🤓
   - trigger: ;;sunglasses
     replace: 😎
+  - trigger: ;;fire
+    replace: 🔥
+  - trigger: ;;eyes
+    replace: 👀
+  - trigger: ;;fax
+    replace: 📠
+  - trigger: ;;whcheck
+    replace: ✅
+  - trigger: ;;cross
+    replace: ❌
+  - trigger: ;;pensive
+    replace: 😔
+  - trigger: ;;raisedeye
+    replace: 🤨
+  - trigger: ;;plead
+    replace: 🥺
+  - trigger: ;;pointup
+    replace: ☝️
