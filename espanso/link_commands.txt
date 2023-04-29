@@ -1,0 +1,2 @@
+New-Item -Type Junction -Path "$env:AppData\espanso" -Value this_folder_path
+New-Item -Type Junction -Path ".\assets" -Value assets_folder_path
