@@ -18,3 +18,5 @@ matches:
     replace: ┬─┬ノ( º _ ºノ)
   - trigger: ;;tm
     replace: ™
+  - trigger: ;;delta
+    replace: Δ
