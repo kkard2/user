@@ -30,4 +30,11 @@ nnoremap <C-u> <C-u>zz
 nnoremap n nzz
 nnoremap N Nzz
 
-nnoremap <leader>gp :!git pull<CR>
+nnoremap gh :action QuickJavaDoc<CR>
+
+nmap <leader>1 :action GotoHarpoon1<CR>
+nmap <leader>2 :action GotoHarpoon2<CR>
+nmap <leader>3 :action GotoHarpoon3<CR>
+nmap <leader>4 :action GotoHarpoon4<CR>
+nmap <C-e> :action ShowHarpoon<CR>
+nmap <leader>a :action AddToHarpoon<CR>
