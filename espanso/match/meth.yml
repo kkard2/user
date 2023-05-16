@@ -9,3 +9,5 @@ matches:
     replace: Δ
   - trigger: ;;\lambda
     replace: λ
+  - trigger: ;;\Omega
+    replace: Ω
