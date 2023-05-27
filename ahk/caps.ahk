@@ -12,12 +12,7 @@ q::Esc
 CapsLock::{
     KeyWait "CapsLock"
     if A_ThisHotkey = "CapsLock" {
-        if GetKeyState("Shift") {
-            global CapsLockState := not CapsLockState
-            SetCapsLockState CapsLockState
-        } else {
-            Send "{Escape}"
-        }
+        Send "{Escape}"
     }
 }
 

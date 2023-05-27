@@ -1,3 +1,4 @@
+CapsLockState := false
 SystemLeader := "CapsLock"
 
 HarpoonLastWindowIndex := 0
@@ -22,21 +23,42 @@ HarpoonRun(winTitle) {
 }
 
 #HotIf GetKeyState(SystemLeader, "P")
+\::{
+    global CapsLockState := not CapsLockState
+    SetCapsLockState CapsLockState
+}
+
 ; vim motion
 h::Left
 j::Down
 k::Up
 l::Right
 
-; less vim motion
-w::^Right
-b::^Left
-i::Home
-a::End
+y::^Left
+u::^Down
+i::^Up
+o::^Right
 
-o::{
-    Send "{End}{Enter}"
-}
+n::Home
+m::PgDn
+,::PgUp
+.::End
+
+; vim motion w select
++h::+Left
++j::+Down
++k::+Up
++l::+Right
+
++y::^+Left
++u::^+Down
++i::^+Up
++o::^+Right
+
++n::+Home
++m::+PgDn
++,::+PgUp
++.::+End
 
 ; harpoon
 `::HarpoonRun("ahk_exe WindowsTerminal.exe")
@@ -60,18 +82,17 @@ e::HarpoonRun("ahk_class CabinetWClass")
 Esc::Run "taskmgr"
 
 ; window manipulation
-!h::#+Left
+!h::#Left
 !j::#Down
 !k::#Up
-!l::#+Right
+!l::#Right
 
-^!h::#Left
-^!j::#+Down
-^!k::#+Up
-^!l::#Right
+!y::#+Left
+!u::#+Down
+!i::#+Up
+!o::#+Right
 
 ; desktop switching
-^h::^#Left
-^l::^#Right
+!n::^#Left
+!.::^#Right
 #HotIf
-
