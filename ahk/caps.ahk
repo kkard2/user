@@ -3,8 +3,6 @@
 ; This cannot run as a separate script
 #Include leader.ahk
 
-CapsLockState := false
-
 #HotIf GetKeyState("CapsLock", "P")
 q::Esc
 #HotIf
@@ -23,6 +21,9 @@ CapsLock::{
     return
 }
 ^!CapsLock::{
+    return
+}
++CapsLock::{
     return
 }
 
