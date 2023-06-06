@@ -15,7 +15,7 @@ matches:
     replace: 😩
   - trigger: ;;nerd
     replace: 🤓
-  - trigger: ;;sunglasses
+  - trigger: ;;sung
     replace: 😎
   - trigger: ;;fire
     replace: 🔥
