@@ -35,3 +35,5 @@ matches:
     replace: 🥺
   - trigger: ;;pointup
     replace: ☝️
+  - trigger: ;;shock
+    replace: 😱
